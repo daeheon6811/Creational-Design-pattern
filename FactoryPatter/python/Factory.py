@@ -17,6 +17,8 @@ class Dog(Animal):
     
 #Factory function
 #prefer enum
+
+
 def FactoryFn(animal:AnimalEnum):
   if animal == AnimalEnum.CAT:
     return Cat()
