@@ -1,19 +1,5 @@
-class Animal():
-  def speak(self):
-    pass
-
-class Cat(Animal):
-  def speak(self):
-    print("meow")
-
-class Dog(Animal):
-  def speak(self):
-    print("bark")
-
-    
-class AnimalFactory():
-  def createAnimal(self):
-    pass
+from Animal import *
+from AnimalFactory import *
 
 class CatFactory(AnimalFactory):
   def __init__(self):
